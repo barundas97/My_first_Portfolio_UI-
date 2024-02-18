@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.2rem;
+    font-style: italic;
+}
+body{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+}
+/*..... CSS for NavBar ... */
+.navContainer{
+    background-color: rgb(26, 9, 49);
+    width: 100vw;
+    min-width: 200px;
+    height: 25vh;
+    box-shadow: 2px 3px 4px 5px whitesmoke;
+}
+h1{
+    position: relative;
+    top: 15px;
+    color: beige;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 5px 3px 7px rgb(149, 49, 142);
+}
+.personalDetails{   /* CSS for Personal details */ 
+    margin-top: 30px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    height: 14vh;
+}
+.ContactDetails{
+    display: inline-block;
+    margin-left:20px;
+    max-height: 230px;
+    min-width:10%;
+    padding: 5px 10px;
+    z-index: 1;
+    cursor: pointer;
+}
+.ContactDetails:hover{
+    text-decoration: underline;
+    color: red;
+}
+.listItem{
+    background-color: aliceblue;
+    color: black;
+    font-weight: bold;
+    width:100%;
+    padding: 5px;
+    max-height: 130px;
+    transition: max-height 0.5s;
+}
+.darkMode , .lightMode{
+    width:105px;
+    height: 30px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    background: transparent;
+    color: white;
+}
+.mainContainer{
+   top: 10px;
+   width:100%;
+   height: 100vh;
+   color: white;
+}
+
+/* CSS for First Article */
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 2px 4px 6px white;
+    margin-top: 20px;
+    min-height: 250px;
+}
+p{
+    text-align: left;
+    margin-left: 15px;
+    margin-top: 12px;
+    color: beige;
+    font-size: 1.3rem;
+}
+.box{
+    
+    border-radius:5px;
+    min-width: 130px;
+    max-width: 340px;
+    min-height: 120px;
+    height:140px;
+    margin:20px 10px;
+    background-color: rgb(29, 19, 39);
+    flex-basis: 260px;
+    cursor: pointer;
+    box-shadow: -1px -1px 2px 3px  violet,
+            inset 0px 2px 8px 3px red;
+    transition: height 0.2s;
+
+}
+.box:hover{
+    box-shadow: 0px 1px 3px 3px white;
+   height:160px;
+   font-size: 20px;
+}
+ a:active{
+    color: red;
+}
+.containersLink{
+    display:block;
+    text-align: center;
+    text-decoration: none;
+    color: antiquewhite;
+    margin:40px auto;
+}
+
+/* CSS for Second Article */
+.containerOne{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 2px 4px 6px white;
+    margin-top: 20px;
+    min-height: 250px;
+}
+span{
+    display: inline-block;
+    margin-left: 60px;
+    padding: 60px 50px;
+
+}
+.containBox:active{
+    background-color: aliceblue;
+    color: red;
+}
